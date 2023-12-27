@@ -1,0 +1,34 @@
+Anotações
+
+PONTOS IMPORTANTES SOBRE O ECOSSISTEMA .NET E C#
+
+- C# é uma linguagem de programação moderna orientada a objeto e fortemente tipada, criada pela Microsoft, sendo a principal da plataforma .NET
+
+- .NET é uma plataforma de desenvolvedor, também da Microsoft, que pode ser usada para projetos em qualquer dispositivo, multiplataforma. 
+
+- Diferença entre .NET Framework e .NET Core. O .NET Framework é uma plataforma madura e estável, e é a escolha ideal para projetos que precisam de uma solução completa e confiável. 
+.NET Core, por outro lado, é uma versão cross-platform, open-source e modular da plataforma.
+
+- Com essa plataforma temos acesso a ASP.NET Core (Web, APIs REST, Blazor e Microsserviços), .NET MAUI (Multi-plataform App UI), 
+ML.NET (Machine Learning), Desenvolvimento de jogos com Unity, IoT e trabalhos com Nuvem.
+
+- .NET MAUI é o sucessor do Xamarin, e combina a linguagem de marcação XAML (front-end) com código C# (back-end) para construção de aplicativos multi-plataforma
+com uma única base de código. 
+
+- Blazor te possibilita criar aplicativos web utilizando a linguagem de marcação HTML e estilização de elementos CSS, 
+substituindo o Javascript por C#.
+
+- O ecossistema NuGet é um gerenciador de pacotes criado especificamente para .NET, que contém mais de 100.000 pacotes.
+
+CONEXÃO COM BANCO DE DADOS EM C#
+
+- ORM (OBJECT RELATIONAL MAPPER), técnica de mapeamento objeto relacional utilizado para conversar com o banco de dados, permite uma relação
+dos objetos com dados que se representem.
+
+- EF core (Entity Framework Core): pacote do NuGet, ORM completa, faz toda a conexão sozinho.
+
+- Dapper (Micro ORM): pacote do NuGet, proporciona mais controle sobre o código, de forma híbrida.
+
+- SqlCommand: SQL puro, queries na mão, total controle do código, conexão feita através de ConnectionStrings.
+
+- NHibernate: pacote do NuGet, mapeador mais maduro e antigo, mas ainda muito usado.

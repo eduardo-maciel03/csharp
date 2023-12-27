@@ -1,0 +1,1 @@
+Todas as anotações, aprendizados feitos na linguagem C#
