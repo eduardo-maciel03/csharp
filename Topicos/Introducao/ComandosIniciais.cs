@@ -141,3 +141,17 @@ foreach(var nome in nomes){ // percorre listas e arrays
     Console.WriteLine(nome);
 }
 
+
+// TRY CATCH
+try // try - tenta executar seu código até que uma exceção seja gerada ou ele seja concluído com sucesso
+{
+    // body
+}
+catch(Exception ex)
+{
+    throw new Exception(ex.Message); // throw - dispara um erro ou exceção que ocorreu ao tentar executar seu código no body
+}
+finally
+{
+    // garante que o código definido aqui sempre será executado mesmo que ocorra uma exceção
+}

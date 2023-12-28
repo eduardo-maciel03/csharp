@@ -1,6 +1,6 @@
 namespace CSharp
 {
-    public class Genericos
+    public class Generics
     {
         public void Aprendizados()
         {
@@ -9,7 +9,7 @@ namespace CSharp
             int[] intArray = new int[] { 1, 2, 3};
             double[] doubleArray = new double[] { 1.0, 2.0, 3.0 };
 
-            // Método declarado abaixo
+            // método ArrayReader declarado abaixo do método Aprendizados
             ArrayReader(stringArray);
             ArrayReader(intArray);
             ArrayReader(doubleArray);
