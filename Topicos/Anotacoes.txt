@@ -6,6 +6,8 @@ PONTOS IMPORTANTES SOBRE O ECOSSISTEMA .NET E C#
 
 - .NET é uma plataforma de desenvolvedor, também da Microsoft, que pode ser usada para projetos em qualquer dispositivo, multiplataforma. 
 
+- No framework .NET existem versões LTS (Long Term Support) e STS (Short Term Support).
+
 - Diferença entre .NET Framework e .NET Core. O .NET Framework é uma plataforma madura e estável, e é a escolha ideal para projetos que precisam de uma solução completa e confiável. 
 .NET Core, por outro lado, é uma versão cross-platform, open-source e modular da plataforma.
 
@@ -16,19 +18,19 @@ ML.NET (Machine Learning), Desenvolvimento de jogos com Unity, IoT e trabalhos c
 com uma única base de código. 
 
 - Blazor te possibilita criar aplicativos web utilizando a linguagem de marcação HTML e estilização de elementos CSS, 
-substituindo o Javascript por C#.
+substituindo o Javascript por C#. Dividio entre Blazor Server (SignalR) e Blazor WASM (WebAssembly).
 
 - O ecossistema NuGet é um gerenciador de pacotes criado especificamente para .NET, que contém mais de 100.000 pacotes.
 
 CONEXÃO COM BANCO DE DADOS EM C#
 
 - ORM (OBJECT RELATIONAL MAPPER), técnica de mapeamento objeto relacional utilizado para conversar com o banco de dados, permite uma relação
-dos objetos com dados que se representem.
+dos objetos com dados que se representem. Existem pacotes do NuGet disponíveis para essa comunicação:
 
-- EF core (Entity Framework Core): pacote do NuGet, ORM completa, faz toda a conexão sozinho.
+- EF core (Entity Framework Core): ORM completa, faz toda a conexão sozinho.
 
-- Dapper (Micro ORM): pacote do NuGet, proporciona mais controle sobre o código, de forma híbrida.
+- Dapper (Micro ORM): proporciona mais controle sobre o código, de forma híbrida.
 
-- SqlCommand: SQL puro, queries na mão, total controle do código, conexão feita através de ConnectionStrings.
+- SqlCommand: SQL puro, queries na mão, total controle do código, conexão feita através de connection strings.
 
-- NHibernate: pacote do NuGet, mapeador mais maduro e antigo, mas ainda muito usado.
+- NHibernate: mapeador mais maduro e antigo, mas ainda muito usado.

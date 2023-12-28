@@ -1,1 +1,2 @@
-Todas as anotações, aprendizados feitos na linguagem C#
+##CSHARP
+Todas as anotações e aprendizados feitos em C#

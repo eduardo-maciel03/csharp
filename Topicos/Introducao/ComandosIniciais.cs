@@ -1,4 +1,4 @@
-//dotnet new console - cria novo projeto C#
+//dotnet new console - cria novo projeto de console C#
 //dotnet run - roda a aplicação
 
 
@@ -117,7 +117,7 @@ nomes.Remove("Fernando"); // remove o item escrito
 nomes.Clear(); // limpa a lista
 nomes.Contains("Maria"); // retorna se contém ou não o item
 
-Console.WriteLine(nomes[0] + livros[0]); // pode acessar qualquer um deles pelo índice
+Console.WriteLine(nomes[0] + livros[1]); // pode acessar qualquer um deles pelo índice
 
 
 // LOOPINGS

@@ -9,6 +9,7 @@ namespace CSharp
             int[] intArray = new int[] { 1, 2, 3};
             double[] doubleArray = new double[] { 1.0, 2.0, 3.0 };
 
+            // Método declarado abaixo
             ArrayReader(stringArray);
             ArrayReader(intArray);
             ArrayReader(doubleArray);
@@ -27,11 +28,11 @@ namespace CSharp
 
             if (myDictionary.ContainsKey(1)) 
             {
-                Console.WriteLine("Certo");
+                Console.WriteLine("Ok");
             }
             else
             {
-                Console.WriteLine("Errado");
+                Console.WriteLine("Não");
             }
 
         }
