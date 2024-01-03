@@ -9,7 +9,7 @@ namespace CSharp
             int[] intArray = new int[] { 1, 2, 3};
             double[] doubleArray = new double[] { 1.0, 2.0, 3.0 };
 
-            // método ArrayReader declarado abaixo do método Aprendizados
+            // método ArrayReader (Leitor de Array) declarado abaixo do método Aprendizados
             ArrayReader(stringArray);
             ArrayReader(intArray);
             ArrayReader(doubleArray);

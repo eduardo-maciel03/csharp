@@ -1,1 +1,1 @@
-Todas as anotações e aprendizados feitos em C#
+Algumas anotações e aprendizados feitos em C#
